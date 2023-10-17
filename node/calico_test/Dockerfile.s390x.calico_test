@@ -32,7 +32,7 @@
 # - eliminate most isolation, (--uts=host --pid=host --net=host --privileged)
 # - volume mount your ST source code
 # - run 'nosetests'
-FROM docker:18.03.0
+FROM docker:24.0.6
 MAINTAINER IBM Z Open Source Ecosystem (https://community.ibm.com/community/user/ibmz-and-linuxone/groups/topic-home?CommunityKey=64d1d1bd-66bc-4ecb-b9e8-0372b18c5bcb)
 
 # Running STs in this container requires that it has all dependencies installed
