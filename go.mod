@@ -32,7 +32,7 @@ require (
 	github.com/google/netstack v0.0.0-20191123085552-55fcc16cd0eb
 	github.com/google/safetext v0.0.0-20230106111101-7156a760e523
 	github.com/google/uuid v1.3.1
-	github.com/gruntwork-io/terratest v0.41.24
+	github.com/gruntwork-io/terratest v0.46.0
 	github.com/ishidawataru/sctp v0.0.0-20191218070446-00ab2ac2db07
 	github.com/joho/godotenv v1.4.0
 	github.com/json-iterator/go v1.1.12
@@ -86,15 +86,15 @@ require (
 	gopkg.in/go-playground/validator.v9 v9.27.0
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.26.5
+	k8s.io/api v0.27.2
 	k8s.io/apiextensions-apiserver v0.26.5
-	k8s.io/apimachinery v0.26.5
+	k8s.io/apimachinery v0.27.2
 	k8s.io/apiserver v0.26.5
-	k8s.io/client-go v0.26.5
+	k8s.io/client-go v0.27.2
 	k8s.io/code-generator v0.26.5
 	k8s.io/component-base v0.26.5
-	k8s.io/klog/v2 v2.80.1
-	k8s.io/kube-openapi v0.0.0-20230303024457-afdc3dddf62d
+	k8s.io/klog/v2 v2.90.1
+	k8s.io/kube-openapi v0.0.0-20230501164219-8b0f38b5fd1f
 	k8s.io/kubernetes v1.26.5
 	k8s.io/utils v0.0.0-20230313181309-38a27ef9d749
 	modernc.org/memory v1.5.0
