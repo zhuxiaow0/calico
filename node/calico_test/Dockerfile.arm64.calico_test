@@ -32,7 +32,7 @@
 # - eliminate most isolation, (--uts=host --pid=host --net=host --privileged)
 # - volume mount your ST source code
 # - run 'nosetests'
-FROM arm64v8/docker:18.06.0
+FROM arm64v8/docker:24.0.6
 MAINTAINER Tom Denham <tom@projectcalico.org>
 
 # Running STs in this container requires that it has all dependencies installed
