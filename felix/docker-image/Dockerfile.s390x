@@ -10,7 +10,7 @@ RUN apt-get update && \
 
 FROM calico/bpftool:v5.3-s390x as bpftool
 
-FROM s390x/debian:10-slim
+FROM s390x/debian:12-slim
 LABEL maintainer="Shaun Crampton <shaun@tigera.io>"
 
 # Enable non-native builds of this image on an amd64 hosts.
