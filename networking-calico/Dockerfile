@@ -1,4 +1,4 @@
-FROM quay.io/coreos/etcd:v3.4.20 as etcd
+FROM quay.io/coreos/etcd:v3.5.13 as etcd
 
 FROM python:3.8
 
